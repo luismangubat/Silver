@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/navigation.js'
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom' 
+import PageRenderer from './page-renderer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation/>
+        <Switch>
+
+          {/* Allows future pagess to render by finding the corrensponding page name */}
+          <Route path= '/:page' component = {PageRenderer}/>
+          <Route path = '/' render = {() => <Redirect to = '/home'/> } />
+          {/* if page is not return an error page */}
+          <Route component= {() => 404}/>
+        </Switch>
+      </div>
+    </Router>
+
   );
 }
 
