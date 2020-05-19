@@ -4,10 +4,14 @@ import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-do
 import PageRenderer from './page-renderer'
 
 function App() {
+  const user = {
+    firstName: 'Luis',
+    lastName: 'Mangubat'
+  }
   return (
     <Router>
       <div className="App">
-        <Navigation/>
+        <Navigation user ={ user }/>
         <Switch>
 
           {/* Allows future pagess to render by finding the corrensponding page name */}
