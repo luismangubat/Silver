@@ -2,14 +2,15 @@
 .site-navigation {
     height: 65px;
     width: 100%;
-    background: white;
+    background: #1e1e1f;
     display: flex;
     justify-content: space-between;
     color: $text-color;
 
     .menu-title {
-        font-size: 24px;
         font-weight: 500;
+        font-size: 22px;
+        height: 100%;  
         display: flex;
         align-items: center;
         margin-left: 30px;
@@ -80,10 +81,11 @@
         .menu-content-container{
             width:  300px;
             height: calc(100% - 65px);
-            background: white;
+            background: #1e1e1f;
             position: absolute;
             top: 65px;
             left: -300px;
+         
         
             transition: 300ms ease left;
             flex-direction:  column-reverse;
@@ -104,9 +106,10 @@
 
             ul {
                 flex-direction: column;
-                justify-content: start;
+                justify-content: flex-start;
                 padding: 0;
                 padding-top: 20px;
+            
             }
 
             ul, li, .menu-avatar-container {
