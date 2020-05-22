@@ -9,6 +9,7 @@
     text-decoration: none;
     margin:0 auto;   
     min-height: 200px;
+    
 
 
 
@@ -49,10 +50,13 @@
          margin-bottom: 15px;
          margin-left: -1px;
          color: white;
+         opacity: 0.6;
+         
          .tag{
              border-radius: 5px;
              padding: 4px 8px;
              margin-right: 5px;
+             
 
          }
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {categoryColors} from './styles'
+// import {categoryColors} from './styles'
 export default function MasonryPost ({post, tagsOntTop}) {
 
     const windowWidth = window.innerWidth
@@ -12,7 +12,7 @@ export default function MasonryPost ({post, tagsOntTop}) {
             <div className='image-text' style = {{justifyContent: tagsOntTop ? 'space-between' : 'flex-end'}}> 
                 <div className='tags-container'>
                     {post.categories.map((tag, ind) => 
-                        <span key={ind} className='tag' style={{backgroundColor: categoryColors[tag]}}>
+                        <span key={ind} className='tag' /*style={{backgroundColor: categoryColors[tag]}}*/ >
                             {tag.toUpperCase()}
                         </span>
                     )}

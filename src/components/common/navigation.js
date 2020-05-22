@@ -22,6 +22,10 @@ const navLinks = [
     {
         title: 'Login',
         path: '/login'
+    },
+    {
+        title:'Architecture',
+        path:"/Architecture"
     }
     
 
@@ -36,7 +40,7 @@ export default function Navigation({user}) {
 
     return (
     <nav className = 'site-navigation'>
-        <span className="menu-title"> DREAM  </span>
+        <span className="menu-title"> Silver  </span>
             <div className = {`menu-content-container ${menuActive && 'active'}`}>
                 <ul> 
 

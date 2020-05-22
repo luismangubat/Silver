@@ -1,7 +1,7 @@
 import React from 'react'
 import {PostMasonry} from '../components/common'
 import trending from '../assets/mocks/trending'
-import featured from '../assets/mocks/featured'
+//import featured from '../assets/mocks/featured'
 
 const trendingConfig = {
     1: {
