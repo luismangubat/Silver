@@ -3,12 +3,16 @@ import {PostMasonry} from '../components/common'
 import trending from '../assets/mocks/trending'
 //import featured from '../assets/mocks/featured'
 
+
+// Congfigurations for new trending Masonry Layout 
 const trendingConfig = {
     1: {
         gridArea: '1 / 2 / 3 / 3'
     }
 }
 
+
+// Muerge styless for each post 
 const mergeStyles = function (posts, config ){
     posts.forEach((post, index) => {
         post.styles = config[index]
