@@ -23,10 +23,7 @@ const navLinks = [
         title: 'Login',
         path: '/login'
     },
-    {
-        title:'Architecture',
-        path:"/Architecture"
-    }
+
     
 
     
@@ -39,7 +36,7 @@ export default function Navigation({user}) {
 
 
     return (
-    <nav className = 'site-navigation'>
+    <nav className = 'site-navigation' role='navigation'>
         <span className="menu-title"> Silver  </span>
             <div className = {`menu-content-container ${menuActive && 'active'}`}>
                 <ul> 
@@ -56,7 +53,7 @@ export default function Navigation({user}) {
                     ))}
                 </ul> 
                 <span className='menu-avatar-container'>
-                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" size= {38}/>
+                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" size= {38} />
                 <span className= 'menu-avatar-name'> {`${user.firstName} ${user.lastName}`} </span> 
                 </span>   
             </div>
