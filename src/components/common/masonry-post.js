@@ -7,6 +7,10 @@ export default function MasonryPost ({post, tagsOntTop}) {
 
     const style = windowWidth > 900 ? {...imageBackground, ...post.style} : imageBackground
 
+
+    // Testing new const
+    const view = windowWidth > 12000 ? {...imageBackground, ...post.style} : imageBackground
+
     return (
         <a className='masonry-post overlay' style={style} href={post.link}> 
             <div className='image-text' style = {{justifyContent: tagsOntTop ? 'space-between' : 'flex-end'}}> 
