@@ -22,12 +22,7 @@ const navLinks = [
     {
         title: 'Login',
         path: '/login'
-    },
-
-    
-
-    
-    
+    },  
 ]
 
 // Navigation Top Bar 
@@ -39,12 +34,10 @@ export default function Navigation({user}) {
     <nav className = 'site-navigation' role='navigation'>
         <span className="menu-title"> Silver  </span>
             <div className = {`menu-content-container ${menuActive && 'active'}`}>
-                <ul> 
+                <ul>  
 
-                    {/* 
-                    Iterate through array using map function, 
-                    then return a mutation of specfified html element 
-                    */}
+                    {/* Iterate through array using map function, 
+                    then return a mutation of specfified html element */}
                 { navLinks.map((link, index) => (
                         <li key= {index}>
                             {/* Link each title to specified page */}

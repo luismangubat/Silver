@@ -7,6 +7,9 @@
     display: flex;
     justify-content: space-between;
     color: $text-color;
+
+    // Experinemnting with background filter
+    backdrop-filter: saturate(180%) blur(20px);
     
     
     
