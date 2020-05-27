@@ -15,11 +15,12 @@ const trendingConfig = {
 // Muerge styless for each post 
 const mergeStyles = function (posts, config ){
     posts.forEach((post, index) => {
-        post.styles = config[index]
+        post.style = config[index]
     })
 }
 
 mergeStyles(trending, trendingConfig)
+ 
 export default function Home () {
     return (
     <section className = 'container home'>
