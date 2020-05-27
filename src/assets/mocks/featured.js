@@ -2,48 +2,48 @@ import moment from 'moment';
 
 export default [
     {
-        title: 'Top 5 best presets in 2020',
-        date: moment().format('MMMM DD, YYYY'),
-        categories: ['Photography', 'Tech'],
-        link: '#',
-        image: 'los-angeles.jpg'
-
-    },
-
-    {
-        title: 'Most sacred spots in Japan',
+        title: 'The beauty of Japan',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Photography', 'Travel'],
         link: '#',
-        image: 'japan.jpg'
+        image: 'bike.jpg'
+
+    },
+
+    {
+        title: 'Why are ferraris  are so unique',
+        date: moment().format('MMMM DD, YYYY'),
+        categories: ['Photography', 'Travel'],
+        link: '#',
+        image: 'ferrari.jpg'
     },
     {
-        title: 'Top Spots in Toronto',
+        title: 'Sacred gates of Kyoto',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Photography', 'Tech'],
         link: '#',
-        image: 'toronto.jpg'
+        image: 'gate.jpg'
     },
     
     {
-        title: 'Top College Students Regrets', 
+        title: 'My first glimpse of Canada', 
         date: moment().format('MMMM DD, YYYY'),
         categories: ['University'],
         link: '#',
-        image: 'college.jpg'
+        image: 'rowing.jpg'
     },
     {
-        title: 'Hidden gems in Osaka',
+        title: 'The cleanest city in the world',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Travel'],
         link: '#',
-        image: 'osaka.jpg',
+        image: 'streetsOfJapan.jpg',
     },
     {
-        title: 'Secret islands located in the Philippines',
+        title: 'Secret spots in Tagaytay',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Travel', 'Photography'],
         link: '#', 
-        image: 'philippines.jpg'
+        image: 'tagaytay.jpg'
     }
 ]
