@@ -32,18 +32,5 @@ export default [
         link: '#',
         image: 'rowing.jpg'
     },
-    {
-        title: 'The cleanest city in the world',
-        date: moment().format('MMMM DD, YYYY'),
-        categories: ['Travel'],
-        link: '#',
-        image: 'streetsOfJapan.jpg',
-    },
-    {
-        title: 'Secret spots in Tagaytay',
-        date: moment().format('MMMM DD, YYYY'),
-        categories: ['Travel', 'Photography'],
-        link: '#', 
-        image: 'tagaytay.jpg'
-    }
+
 ]

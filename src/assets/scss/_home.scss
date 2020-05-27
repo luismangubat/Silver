@@ -9,15 +9,19 @@
         color: $text-color;
     }
 
+    .featured-post-container {
+        display: flex;
+    }
+
 }  
 
 
-@media screen and (max-width: 900px) {
+ @media screen and (max-width: 900px) {
     .home{
 
-        h1 {
+       h1 {
         margin-block-start: 2.5em;
         margin-block-end: 2.5em;
         }
     }
-}
+ }
