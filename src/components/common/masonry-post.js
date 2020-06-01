@@ -1,4 +1,5 @@
 import React from 'react'
+import TagRow from '/'
 import {categoryColors} from './styles'
 export default function MasonryPost ({post, tagsOntTop}) {
 
@@ -10,13 +11,7 @@ export default function MasonryPost ({post, tagsOntTop}) {
     return (
         <a className='masonry-post overlay' style={style} href={post.link}> 
             <div className='image-text' style = {{justifyContent: tagsOntTop ? 'space-between' : 'flex-end'}}> 
-                <div className='tags-container'>
-                    {post.categories.map((tag, ind) => 
-                        <span key={ind} className='tag' style={{backgroundColor: categoryColors[tag]}} >
-                            {tag.toUpperCase()}
-                        </span>
-                    )}
-                </div>
+                <TagRow tags={post.categories}/>
                 <div>            
                     <h2 className='image-title'>{post.title}</h2>
                     <span className='image-date'>{post.date}</span>
