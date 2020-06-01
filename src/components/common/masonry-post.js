@@ -1,5 +1,5 @@
 import React from 'react'
-import TagRow from '/'
+import {TagRow} from './'
 import {categoryColors} from './styles'
 export default function MasonryPost ({post, tagsOntTop}) {
 
