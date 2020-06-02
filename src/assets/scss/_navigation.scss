@@ -6,13 +6,14 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background:$background;
     color: $text-color;
     position: fixed;
     z-index: 100;
     top: 0;
 
     // Experinemnting with background filter
-    //backdrop-filter: saturate(180%) blur(20px);
+    // backdrop-filter: saturate(180%) blur(20px);
     
     
     
@@ -26,6 +27,7 @@
         display: flex;
         align-items: center;
         margin-left: 30px;
+        
        
          
     }
