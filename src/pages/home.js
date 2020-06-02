@@ -55,18 +55,18 @@ export default function Home () {
                     <h1> Featured Post</h1>
                     <section className = "featured-post-container">
                     <PostMasonry posts = {featured} columns = {2} tagsOnTop = {true} />
-                    <MasonryPost post = {lastFeatured } tagsOnTop = {true} />
+                    <MasonryPost post ={lastPost} tagsOnTop = {true} />
                     </section>
                 </div>
             </section>
-
-            <section className = 'container'>
-                <div className='row'>
-                    <h1>Recent Post</h1>
-                    <PostGrid posts={recentPosts}/>
-                </div>
+            <section className="bg-white">
+                <section className = 'container'>
+                    <div className='row'>
+                        <h1>Recent Post</h1>
+                        <PostGrid posts={recentPosts}/>
+                    </div>
+                </section>
             </section>
-
             <section className = 'container'>
                 <div className='row'>
                     <h1>Trending Post</h1>
