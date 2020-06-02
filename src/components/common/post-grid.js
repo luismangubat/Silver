@@ -13,6 +13,15 @@ export default function PostGrid ({posts}) {
         return posts.slice(firstIndex, lastIndex)
     }, [current, pageSize])
 
+    useEffect(() => {
+        window.scroll({
+            top: 500,
+            left: 0,
+            behavior: 'smooth'
+        })
+
+    }, [current, pageSize])
+
     
     return (
         <section className = "grid-pagination-container">
