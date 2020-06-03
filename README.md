@@ -5,7 +5,7 @@ It is a blog platform for my adventures around the world.
 
 ## Database
 
-![](readmePhotos/Silver.jpg)
+![Silver](https://user-images.githubusercontent.com/14239415/83597164-97b00880-a534-11ea-98f7-31e86f34d934.jpg)
 
 ## Available Scripts
 
