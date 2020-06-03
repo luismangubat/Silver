@@ -1,3 +1,5 @@
+## Silver
+
 This app is a Apple redesign project. I am implementing the apple user guideline with my own twist.
 It is a blog platform for my adventures around the world.
 
