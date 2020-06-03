@@ -5,7 +5,7 @@ It is a blog platform for my adventures around the world.
 
 ## Database
 
-![](images/Silver.jpg)
+![](readmePhotos/Silver.jpg)
 
 ## Available Scripts
 
