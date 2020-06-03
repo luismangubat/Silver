@@ -1,1 +1,19 @@
-t
+type Query {
+
+    # Return atleast an empty array
+    trendingPosts: [Post]!
+    featuredPosts: [Post]!
+    recentPosts: [Post]!
+    
+}
+
+type Post {
+    id: Int,
+    title: String
+    date: String
+    categories: [String]
+    author: String 
+    description: String
+    image: String
+
+}
