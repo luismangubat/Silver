@@ -44,7 +44,7 @@ const recentPosts = [...trending, ...featured, ...featured]
 mergeStyles(trending, trendingConfig)
 mergeStyles(featured, featuredConfig)
  
-const lastFeatured = featured.pop()
+const lastPost = featured.pop()
 
 
 export default function Home () {

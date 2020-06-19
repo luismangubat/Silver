@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {Avatar} from 'antd';
+import Profile from '../../assets/images/Luis.JPG'
 
 const navLinks = [
     {
@@ -46,7 +47,7 @@ export default function Navigation({user}) {
                     ))}
                 </ul> 
                 <span className='menu-avatar-container'>
-                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" size= {38} />
+                <Avatar src={Profile} size= {38} />
                 <span className= 'menu-avatar-name'> {`${user.firstName} ${user.lastName}`} </span> 
                 </span>   
             </div>
