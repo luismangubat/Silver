@@ -6,24 +6,20 @@ import Profile from '../../assets/images/Luis.JPG'
 const navLinks = [
     {
 
-        title: 'Home',
-        path: '/'
+        title: 'Workspace',
+        path: '/workspace'
     },
     {   
 
-        title: 'Blog',
-        path: '/blog'
+        title: 'My Account',
+        path: '/myaccount'
     },
     {
 
-        title: 'Contact Us',
-        path: '/contact-us'
+        title: 'Discover',
+        path: '/discover'
 
-    }, 
-    {
-        title: 'Login',
-        path: '/login'
-    },  
+    }
 ]
 
 // Navigation Top Bar 
