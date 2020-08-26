@@ -40,10 +40,10 @@ export default [
         image: 'osaka.jpg',
     },
     {
-        title: 'Secret islands located in the Philippines',
+        title: 'Secret alleyway in Japan',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Travel', 'Photography'],
         link: '#', 
-        image: 'philippines.jpg'
+        image: 'streetsOfJapan.jpg'
     }
 ]

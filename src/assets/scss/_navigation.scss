@@ -1,8 +1,8 @@
 
 .site-navigation {
 
-    // Originally height: 65px;
-    height: 130px;
+    height: 65px;
+   // height: 130px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -14,9 +14,6 @@
 
     // Experinemnting with background filter
     // backdrop-filter: saturate(180%) blur(20px);
-    
-    
-    
     // opacity: 0.5;
     
 
@@ -123,11 +120,6 @@
             top: 65px;
             left: -300px;
             background: #C7CAD0;
-            z-index: 2;
-            
-            
-         
-        
             transition: 300ms ease left;
             flex-direction:  column-reverse;
             padding: 0;

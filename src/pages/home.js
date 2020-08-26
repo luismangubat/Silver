@@ -30,7 +30,7 @@ const featuredConfig = {
 }
 
 
-// Muerge styless for each post 
+// Merge styless for each post 
 const mergeStyles = function (posts, config ){
     posts.forEach((post, index) => {
         post.style = config[index]
@@ -49,7 +49,7 @@ const lastPost = featured.pop()
 
 export default function Home () {
     return (
-        <main className = 'home'>
+        <main className ='home'>
             <section className = 'container'>
                 <div className='row'>
                     <h1> Featured Post</h1>

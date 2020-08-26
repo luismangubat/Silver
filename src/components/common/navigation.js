@@ -6,8 +6,8 @@ import Profile from '../../assets/images/Luis.JPG'
 const navLinks = [
     {
 
-        title: 'Workspace',
-        path: '/workspace'
+        title: 'Home',
+        path: '/home'
     },
     {   
 
