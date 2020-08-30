@@ -7,6 +7,7 @@ type Query {
     
 }
 
+
 type Post {
     id: Int,
     title: String

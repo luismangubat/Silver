@@ -1,6 +1,6 @@
-import React from 'react'
-import {TagRow} from './'
-import {categoryColors} from './styles'
+import React from 'react';
+import {TagRow} from './';
+
 export default function MasonryPost ({post, tagsOntTop}) {
 
     const windowWidth = window.innerWidth
