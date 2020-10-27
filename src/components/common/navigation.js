@@ -11,8 +11,8 @@ const navLinks = [
     },
     {   
 
-        title: 'My Account',
-        path: '/myaccount'
+        title: 'News Letter',
+        path: '/newsletter'
     },
     {
 

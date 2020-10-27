@@ -9,10 +9,15 @@ export default function Login () {
         const [count, setCount] = useState(0);
       
 
-    return
-    <div>
-        <button onClick= {() => setCount(count + 1)}></button>
-         Login 
-         
+ 
 
-    </div>}
+    return 
+    
+        <div>
+            <button onClick= {() => setCount(count + 1)}></button>
+            Login 
+        </div>
+    }
+}
+
+ 
