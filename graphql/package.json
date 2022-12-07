@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-koa": "^2.14.1",
-    "graphql-tools": "^6.0.6",
+    "graphql-tools": "^6.2.6",
     "koa": "^2.12.0",
     "moment": "^2.26.0"
   }
