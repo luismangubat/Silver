@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.2.4",
     "dotenv": "^8.2.0",
-    "knex": "^0.21.5",
+    "knex": "^2.4.0",
     "moment": "^2.26.0",
     "mysql2": "^2.1.0",
     "node-sass": "^4.14.1",
